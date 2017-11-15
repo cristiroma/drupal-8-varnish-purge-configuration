@@ -1,0 +1,25 @@
+uuid: XXXXXXXX-YYYY-ZZZZ-AAAA-BBBBBBBBBBBB
+langcode: en
+status: true
+dependencies: {  }
+id: XXXXXXXXXX
+name: Varnish
+invalidationtype: tag
+hostname: http.front-end-without-redirect.org
+port: 80
+path: /
+request_method: BAN
+scheme: http
+verify: '1'
+headers:
+  -
+    field: Cache-Tags
+    value: '[invalidation:expression]'
+body: null
+body_content_type: null
+runtime_measurement: true
+timeout: !!float 1
+connect_timeout: !!float 1
+cooldown_time: !!float 0
+max_requests: 100
+http_errors: true
