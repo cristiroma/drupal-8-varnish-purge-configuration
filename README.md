@@ -1,2 +1,4 @@
-# drupal-8-varnish-purge-configuration
-Varnish integration with Drupal 8 via purge and purge-varnish supporting modules
+# Drupal 8 Varnish integration
+
+This repository contains the reference configuration files to integrate Varnish with Drupal 8 using the two modules: purge and varnish_purge.
+
